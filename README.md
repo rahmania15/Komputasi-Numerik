@@ -1,1 +1,3 @@
 # Komputasi-Numerik
+SAFINA SALMA RAHMANIA 
+202511420004

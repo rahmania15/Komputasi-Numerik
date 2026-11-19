@@ -1,0 +1,41 @@
+ALGORITMA PENYELESAIAN SPLTV METODE ELIMINASI GAUSS
+
+1. MULAI
+- siapkan data persamaan linier yang akan dihitung
+
+2. Tentukan jumlah variabel sebanyak 3 (x,y,z)
+misal :
+x+y+z=4
+2x-y+z=0
+x+2y-z=9
+
+3. Masukkan data persamaan
+- Masukkan tiga persamaan linier.
+- Ambil koefisien dari variabel x,y,z
+- Masukkan nilai konstanta dari masing-masing persamaan.
+- Pastikan setiap persamaan memiliki urutan variabel yang sama.
+
+4. Bentuk matriks augmented:
+- Susun koefisien dan konstanta ke dalam matriks.
+- Tiga kolom pertama berisi koefisien koefisien.
+- Kolom terakhir berisi konstanta.
+ 
+5. Menentukan elemen pivot
+- Tentukan elemen pivot pada kolom pertama sampai terakhir .
+- Periksa apakah nilai pivot sama dengan nol.
+- Jika pivot bernilai nol, lakukan pertukaran baris dengan baris di bawahnya yang memiliki elemen kolom tersebut bukan nol.
+- Untuk meningkatkan kestabilan perhitungan, dapat dipilih elemen dengan nilai absolut terbesar pada kolom yang sedang diproses.
+- Jika tidak ditemukan pivot bukan nol, periksa apakah sistem memiliki solusi atau tidak.
+
+6. Membentuk matriks segitiga atas
+- Elemen di bawah diagonal utama bernilai nol.
+- Nilai pivot berada pada diagonal utama.
+
+7. Melakukan substitusi mundur
+- Hitung nilai (z) dari persamaan ketiga.
+- Masukkan nilai (z) untuk menghitung (y) dari persamaan kedua.
+- Masukkan nilai (y) dan (z) untuk menghitung (x) dari persamaan pertama.
+
+8. Menampilkan hasil perhitungan
+
+9. Selesai
